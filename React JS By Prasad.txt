@@ -135,12 +135,4 @@ Folder Structure:
 
 
 
-React JSX:  JSX stands for javascript xml, it is nothing but using HTML inside JS. JSX will return only one value
-
-
-
-
-
-
-
- 
+React JSX:  JSX stands for javascript xml, it is nothing but using HTML inside JS. JSX will return only one value.
