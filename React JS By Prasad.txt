@@ -151,7 +151,9 @@ React JSX will use events as camelCase (eg : onClick), class should be written a
 React Features :
 1. Components : react JS Is completely about building reusable UI Components. Componets are the building blocks of react applicatation.
 2. JSX : JSx is a syntax extension for javascript that allows you to write HTML inside JS
-3. Virtual DOM : React uses a virtual DOM (alightweight in-memory representation of the real DOM) to update / optimize rendering and improve performance
+3. Virtual DOM : React uses a virtual DOM (alightweight in-memory representation
+ of the real DOM) to update 
+/ optimize rendering and improve performance improve
 
 
 
