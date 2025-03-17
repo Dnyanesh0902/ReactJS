@@ -132,27 +132,27 @@ Folder Structure:
 
       App.jsx -- it is a component that can be repreated multiple times
 
-React JSX:  JSX stands for javascript xml, it is nothing but using HTML inside JS. JSX will return only one value.
-
-
-14/03/25
-
-React JSX : JSX Stand for javascript xml , it is nothing but using html inside js. jsx will return only one value. if you need to return more than one value, then keep the code inside a container element like div, section, nav , etc..,
 
 
 
-Fuctions component must starts name with uppercase letter and return JSX UI.
-Components are used for reusability, modularity and flexibility.
-One component Inside another component is called Nested Components.
+React JSX:  JSX stands for javascript xml, it is nothing but using HTML inside JS. JSX will return only one value. If you need to return more than one value, then keep the code inside a container element like div, section ,nav etc..,
 
-React JSX will use events as camelCase (eg : onClick), class should be written as className and HTML Code should be between parenthesis () and JS Code Should be between {}
+React also gives an option of transparent container called Fragments. you can write fragmnets as empty brackets or React.fragment
+
+Function component must starts name with uppercase letter and return JSX UI.
+Components are used for reusability, modularity and flexibility
+One component Inside another component is called Nested components
+
+React JSX will use events as camelCase (eg: onClick), class should be written as className and HTML code should be between parenthesis () and JS code should be between {}
 
 
-React Features :
-1. Components : react JS Is completely about building reusable UI Components. Componets are the building blocks of react applicatation.
-2. JSX : JSx is a syntax extension for javascript that allows you to write HTML inside JS
-3. Virtual DOM : React uses a virtual DOM (alightweight in-memory representation
- of the real DOM) to update / optimize rendering and improve performance
+
+
+React Features: 
+   1. components: React JS is completely about building reuable UI components. 
+    Components are the Building blocks of React Application.
+   2.  JSX: JSX is a syntax extension for javascript that allows you to write HTML inside JS
+   3. virtual DOM: React uses a virtual DOM ( alightweight in-memory representation of the real DOM ) to update/optimize rendering and improve performance
 
 
 
@@ -160,6 +160,32 @@ React Features :
 
 
 
- 
+React Components are the building blocks of React application.
+by default, React application creates a root component called App.
+A component is a small, reusable piece of code that represents a UI element. components are flexible, modular and reusable
+React Provides two kinds of components
+ i. functional components:
+    what is a functional component?
+       functional component also called stateless component that are simple components which receives props and returns JSX.
+    How to create our own functional components?
+       create a file functional-component-name.jsx and add a function which return an UI and export the function
+       const Header = () =>
+       {
+        return (
+        <h2>My Website</h2>
+        )
+       } 
+       export default Header
+       It is recommanded to have same name for component similar to file name. 
+    Inside SRC, create a file with properNAME(starts with uppercase letter), you can keep all pcomponents in one single application
+    How to use functional components?
+      import functional components into other components and use them as HTML elements
+    nested components:
+       A component inside another component is called nested component
 
 
+
+
+
+
+ ii. class components
