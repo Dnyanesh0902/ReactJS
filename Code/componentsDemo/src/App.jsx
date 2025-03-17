@@ -1,10 +1,12 @@
-const App =()=> {
+import Header from "./components/Header";
 
-return(
-  <div>
-    <h1>Hello World</h1>
-  </div>
-)
-
+function App()
+{
+  return (
+    <>
+    <Header></Header>
+    <h2>Hello World</h2>
+    </>
+  )
 }
-export default App;
+export default App
