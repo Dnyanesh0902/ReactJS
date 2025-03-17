@@ -1,0 +1,13 @@
+React components are the building blocks of react application.
+by default, react application creates a root component called App.
+
+A Component is a small, reusable piece of code that represents a UI Element. 
+	components are flexible, modular and reusable 
+
+react provides two kinds of components
+i. functional components:
+	what is a functional component ?
+	How to create our own functional components ?
+	How to use functional components?
+	nested components.
+ii. Class compnents
