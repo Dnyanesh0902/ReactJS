@@ -1,0 +1,37 @@
+19-03-2025
+
+State : In React state refers to the data that changes within a component. state is an object that stores the components dynamic data 
+
+
+State is necessary because react components are designed for reusability and dynamic, when a component  data changes, react will re render component to reflext the new data. state is used to keep track of the data and re render the component
+
+How To Use State In functional components ?
+Ans :- functional components are called stateless components because they cannot implement state directly so they use a hook called useState
+
+import {useState} from 'react'
+
+const [value, setValue] = useState(initialvalue)
+value -- data which is printing on screen
+setValue -- is a method to update state and re render the component
+initial value contains default value
+useState is a hook(function) provided by react
+
+
+eg : -
+
+import react,{useState} from 'react'
+function Counter(){
+const[count,setCount] = useState(0);
+return(
+	<div>
+		<p> Count : {count} </p>
+		<button  onClick={() => setCount(count+1)}>Increment </button>
+	</div> 
+	)
+	}
+export default counter;
+
+
+
+
+ii. class components : class components are the stateful components and they use render method to render the UI and for render method they use component and extends it.
