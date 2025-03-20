@@ -35,3 +35,27 @@ export default counter;
 
 
 ii. class components : class components are the stateful components and they use render method to render the UI and for render method they use component and extends it.
+
+In legacy code, class components have higher preference since they haveIn built state. also they have default life cycle methods.
+
+what is class ?
+ class is blueprint of object. it is a container that contains variables and method.
+
+
+import {Component} from "react";
+
+class Cls extends Component
+{
+	render()
+	{
+	return(
+	<h1> Hello World </h1>
+	)
+	}
+}
+export default Cls
+		
+class components uses
+
+classes
+ - class can't return UI so it need render method and that method is inside component so we extends it.
